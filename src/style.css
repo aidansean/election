@@ -1,0 +1,97 @@
+table.results, table.search
+{
+  width : 100% ;
+  margin : auto ;
+  font-family : arial , sans-serif ;
+  font-size : 8pt ;
+  border-collapse : collapse ;
+  border : 1px solid #000000 ;
+}
+td
+{
+  border-top : 1px solid #000000 ;
+}
+td.td_number
+{
+  text-align : center ;
+}
+h1, h2, h3, h4
+{
+  /*font-family : georgia , serif ;*/
+  font-family : arial , sans-serif ;
+  text-align : center ;
+}
+h1{ font-size : 24pt ; }
+tr, tr.speaker     { background-color : #eeeeee ; }
+tr.labour          { background-color : #ffdddd ; }
+tr.conservative    { background-color : #ddddff ; }
+tr.liberal_democrat, tr.alliance_party{ background-color : #ffffdd ; }
+tr.green           { background-color : #ddffdd ; }
+tr.independent     { background-color : #dddddd ; }
+tr.plaid_cymru, tr.scottish_national_party { background-color : #ddffff ; }
+tr.democratic_unionist_party, tr.sinn_fein, tr.social_democratic_and_labour_party { background-color : #ffeeee ; }
+tr.british_national_party, tr.uk_independence_party { background-color : #ffddff ; }
+
+a.sort{ text-decoration : none ; }
+p.center{ text-align : center ; }
+select.search{ width : 150px ; margin : auto ; }
+
+
+/* Taken from http://www.dynamicdrive.com/style/layouts/item/css-liquid-layout-21-fixed-fluid/ */
+body
+{
+  margin  : 0 ;
+  padding : 0 ;
+  line-height : 1.5em;
+}
+
+#topsection
+{
+  background : #ffffff ;
+  height     : 50px ;
+}
+
+#topsection h1
+{
+  margin : 0 ;
+  padding-top : 15px ;
+}
+
+#contentwrapper
+{
+  float : left ;
+  width : 100% ;
+}
+
+#contentcolumn
+{
+  margin-left : 200px ;
+}
+
+#leftcolumn
+{
+  float : left ;
+  width : 200px ;
+  margin-left : -100% ;
+  background : #ffffff ;
+}
+
+#footer
+{
+  clear : left ;
+  width : 100% ;
+  background : black ;
+  color : #ffffff ;
+  text-align : center ;
+  padding : 4px 0 ;
+}
+
+#footer a{ color: #ffff80; }
+
+.innertube
+{
+  margin : 10px ; /*Margins for inner DIV inside each column (to provide padding)*/
+  margin-top : 0;
+}
+
+
