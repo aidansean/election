@@ -20,13 +20,3 @@ This project should be revisited in the future to clean up the code and make the
 
 <dd><em>Solution</em>: The data contains various parties and candidates which vary from constituency to constituency.  As a result the data processing must be able to add an arbitrary list of candidates and parties per constituency.  This turned out to be trivial, using the database schema, but did add another layer of complexity to the project. (Resolved)</dd>
 </dl>
-
-<h3>Challenges</h3>
-<dl>
-<dt><em>Challenge</em>: Data must be taken from a public domain resource.</dt>
-
-<dd><em>Solution</em>: This prject's first challenge was at the heart of the concept, which is how to obtain large amounts of publically available data in as few HTTP requests as possible, and in an ethicil manner (ie avoiding overloading the servers which provide the data).  The HTTP requests were automated and the data dumped to file for further processing. (Resolved)</dd>
-<dt><em>Challenge</em>: The data for each constituency varies in its content and structure.</dt>
-
-<dd><em>Solution</em>: The data contains various parties and candidates which vary from constituency to constituency.  As a result the data processing must be able to add an arbitrary list of candidates and parties per constituency.  This turned out to be trivial, using the database schema, but did add another layer of complexity to the project. (Resolved)</dd>
-</dl>
